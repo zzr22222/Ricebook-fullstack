@@ -7,8 +7,8 @@ const setupGoogle = (router) => {  // 改为接收 router 而不是 app
 
     // 1. Google 策略配置
     passport.use(new GoogleStrategy({
-        clientID: process.env.GOOGLE_CLIENT_ID,
-        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+        clientID: '',
+        clientSecret: '',
         callbackURL: "https://ricebookserverzzr-d6195a521a04.herokuapp.com/auth/google/callback",
         proxy: true
     }, async (accessToken, refreshToken, profile, done) => {

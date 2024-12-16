@@ -38,8 +38,6 @@ app.get('/env-test', (req, res) => {
         vars: {
             MONGODB_URI: process.env.MONGODB_URI ? 'Set' : 'Not set',
             SESSION_SECRET: process.env.SESSION_SECRET ? 'Set' : 'Not set',
-            GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID ? 'Set' : 'Not set',
-            GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET ? 'Set' : 'Not set'
         }
     });
 });
