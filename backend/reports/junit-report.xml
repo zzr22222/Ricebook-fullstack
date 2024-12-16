@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.416" tests="15" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-11-24T07:08:29" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Article API Tests" timestamp="2024-11-24T07:08:29" tests="6" file="/Users/zhaozirui/backend/src/articles.spec.js" time="0.019" failures="0">
+    <testcase name="Article API Tests should return an empty list of articles initially" time="0.006" classname="should return an empty list of articles initially">
+    </testcase>
+    <testcase name="Article API Tests should add a new article and return it" time="0.005" classname="should add a new article and return it">
+    </testcase>
+    <testcase name="Article API Tests should retrieve an article by ID" time="0.002" classname="should retrieve an article by ID">
+    </testcase>
+    <testcase name="Article API Tests should return 404 when requesting a non-existent article ID" time="0.001" classname="should return 404 when requesting a non-existent article ID">
+    </testcase>
+    <testcase name="Article API Tests should update the text of an article" time="0.001" classname="should update the text of an article">
+    </testcase>
+    <testcase name="Article API Tests should add a comment to an article" time="0.002" classname="should add a comment to an article">
+    </testcase>
+  </testsuite>
+  <testsuite name="Authentication API Tests" timestamp="2024-11-24T07:08:29" tests="5" file="/Users/zhaozirui/backend/src/login.spec.js" time="1.391" failures="0">
+    <testcase name="Authentication API Tests should register a new user" time="0.087" classname="should register a new user">
+    </testcase>
+    <testcase name="Authentication API Tests should not register a user with an existing username" time="0.082" classname="should not register a user with an existing username">
+    </testcase>
+    <testcase name="Authentication API Tests should log in an existing user" time="0.121" classname="should log in an existing user">
+    </testcase>
+    <testcase name="Authentication API Tests should not log in with an incorrect password" time="0.082" classname="should not log in with an incorrect password">
+    </testcase>
+    <testcase name="Authentication API Tests should log out a logged-in user" time="0.125" classname="should log out a logged-in user">
+    </testcase>
+  </testsuite>
+  <testsuite name="Profile API Tests" timestamp="2024-11-24T07:08:31" tests="4" file="/Users/zhaozirui/backend/src/profile.spec.js" time="0.005" failures="0">
+    <testcase name="Profile API Tests should return the headline of the currently logged-in user" time="0.001" classname="should return the headline of the currently logged-in user">
+    </testcase>
+    <testcase name="Profile API Tests should update the headline of the currently logged-in user" time="0.001" classname="should update the headline of the currently logged-in user">
+    </testcase>
+    <testcase name="Profile API Tests should retrieve the headline of a specified user" time="0.001" classname="should retrieve the headline of a specified user">
+    </testcase>
+    <testcase name="Profile API Tests should return 404 when requesting a non-existent user" time="0.001" classname="should return 404 when requesting a non-existent user">
+    </testcase>
+  </testsuite>
+</testsuites>
