@@ -1,0 +1,3 @@
+Ricebook, a full-stack social media platform developed with React, Redux, Node.js, Express, and MongoDB. The front end uses React and Redux to manage global states like authentication, post feeds, and profiles, while the backend provides RESTful APIs and user session management through Passport.js.
+
+One of the biggest challenges was implementing real-time feed updates and infinite scrolling while keeping the UI responsive. I optimized API calls and caching to achieve sub-200 ms response times and smooth rendering even under concurrent users. Another challenge was maintaining clean Redux state transitions to avoid unnecessary re-renders.
